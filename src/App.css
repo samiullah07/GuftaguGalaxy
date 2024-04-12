@@ -1,0 +1,113 @@
+.userIcon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.userIcon .userI {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  font-size: 70px;
+  transition: 60ms;
+  color: #671cc9;
+}
+body.is-dark .userIcon .userI {
+  color: #797bf2;
+}
+.userIcon .userI:hover {
+  opacity: 0.8;
+}
+
+.avatar {
+  color: #671cc9;
+}
+
+body.is-dark .avatar {
+  color: #797bf2;
+}
+.userimginp {
+  display: none;
+}
+
+.UploadText {
+  margin-top: 10px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.notificationsBox {
+  width: 17px;
+  height: 17px;
+  background-color: green;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+}
+.conversation-content {
+  width: 200px;
+  padding-top: 9px;
+}
+.text-cap {
+  text-transform: capitalize;
+}
+.sendBtn {
+  font-size: 20px;
+  color: #cecece;
+  stroke-width: 2px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.sendBtn:hover {
+  color: #671cc9;
+}
+
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+.d-flex {
+  display: flex;
+}
+.align-item {
+  align-items: center;
+}
+body.is-dark .UploadText {
+  color: #aaaab3;
+}
+.GoogleI {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.overlay {
+  position: relative;
+  filter: blur(200px);
+  -webkit-filter: blur(200px);
+  z-index: -100;
+}
+
+.uploadImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.account-wrapper {
+  padding-bottom: 0px;
+}
+.account-box {
+  border-radius: 0 !important;
+  border: 0 !important;
+}
+.forms-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.register {
+  min-height: 830px !important;
+}

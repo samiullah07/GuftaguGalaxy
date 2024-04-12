@@ -1,0 +1,14 @@
+{
+  "short_name": "Guftagu Galaxy",
+  "name": "Guftagu Galaxy - A Modern Chat Web Application - Developed by Anas Jahangir.",
+  "icons": [
+    {
+      "src": "assets/img/favicon.png",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#671CC9",
+  "background_color": "#ffffff"
+}
